@@ -1,0 +1,9 @@
+enum SCREENS {
+  HOME = "HOME",
+  SERVICES = "SERVICES",
+  SERVICE_DETAILS = "SERVICE_DETAILS",
+}
+
+export {
+  SCREENS,
+}

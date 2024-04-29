@@ -1,0 +1,27 @@
+<!-- lightweight-charts.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+<body>
+  <div id="chart"></div>
+  <script>
+    // Your Lightweight Charts configuration and code go here
+    const chart = LightweightCharts.createChart(document.getElementById('chart'), {
+      /* Your chart configuration */
+    });
+
+    // Example: Add a line series
+    const lineSeries = chart.addLineSeries();
+    lineSeries.setData([
+      { time: '2024-01-01', value: 100 },
+      { time: '2024-01-02', value: 120 },
+      // Add more data points as needed
+    ]);
+  </script>
+</body>
+</html>

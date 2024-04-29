@@ -1,0 +1,16 @@
+normalize(7) = FONT_SIZE._10
+normalize(8) = FONT_SIZE._11
+normalize(9) = FONT_SIZE._12
+normalize(10) = FONT_SIZE._13
+normalize(11) = FONT_SIZE._14
+normalize(12) = FONT_SIZE._17
+normalize(13) = FONT_SIZE._18
+normalize(15) = FONT_SIZE._20
+normalize(16) = FONT_SIZE._22
+normalize(17) = FONT_SIZE._23
+normalize(18) = FONT_SIZE._24
+normalize(22) = FONT_SIZE._32
+
+
+28 = 4.35
+25 = 3.8
